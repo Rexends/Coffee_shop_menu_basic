@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffe_shop_menu</title>
+    <title>Bean & Brew Café | Coffee Shop Menu & Snacks</title>
+    <meta name="description" content="Discover the menu of Bean & Brew Café. Enjoy espresso, cappuccino, latte and fresh bakery snacks in a cozy coffee shop.">
+    <meta name="keywords" content="coffee shop, cafe menu, espresso, cappuccino, latte, snacks, bakery, coffee">
+    <meta name="author" content="Santiago Villegas Orozco">
+    <meta property="og:title" content="Bean & Brew Café">
+    <meta property="og:description" content="Explore our coffee menu with premium drinks and delicious snacks.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
 </head>
 <body>
-    <div class="inicio">
+    <header class="inicio">
         <h1>Bean & Brew Cafe</h1>
         <h4>Discover our slection of drinks and snacks</h4>
-    </div>
-    <div class="menu">
+    </header>
+    <main class="menu">
         <img class="producto" src="./images/coffee_producto.jpg" alt="Café espresso recién preparado en una cafetera moka">
         <ul>
             <li>Espresso</li>
@@ -22,16 +28,27 @@
             <li>Blueberry Muffin</li>
             <li>Matcha Cookie</li>
         </ul>
-    </div>
-    <div>
-        <footer>
-            <p id="contact">Contact</p>
-            <ul>
-                <li><p><img src="./images/coding.png" id="Icon"><strong>Create By:</strong> Santiago Villegas Orozco</p></li>
+    </main>
+    <footer>
+        <p id="contact">Contact</p>
+        <ul>
+            <li><p><img src="./images/coding.png" id="Icon"><strong>Create By:</strong> Santiago Villegas Orozco</p></li>
                 
-                <li id="github"><img src="./images/githubIcon.png" id="Icon"><a href="https://github.com/Rexends"><strong>Github profile</strong></a></li>
-            </ul>
-        </footer>
-    </div>
+            <li id="github"><img src="./images/githubIcon.png" id="Icon"><a href="https://github.com/Rexends"><strong>Github profile</strong></a></li>
+        </ul>
+    </footer>
+
 </body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Bean & Brew Café",
+  "servesCuisine": "Coffee",
+  "author": {
+    "@type": "Person",
+    "name": "Santiago Villegas Orozco"
+  }
+}
+</script>
 </html>
